@@ -21,5 +21,18 @@
     height: auto;
     width: 85%;
 }
+#togglePassword{
+
+    cursor: pointer;
+    z-index: 2;
+    
+}
+#form3Example3{
+width: 90%;
+}
+#form3Example4{
+width: 90%;
+    
+}
 
 
