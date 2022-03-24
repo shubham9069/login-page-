@@ -75,5 +75,16 @@ a{
   height: 41px !important;
   font-size: 15px;
 }
+.fa-envelope:before {
+  position: relative !important;
+  content: "\f0e0";
+  
+  bottom: 15px !important;
+}
+.fa-lock:before {
+  content: "\f023";
+  position: relative !important;
+  bottom: 15px !important;
+}
 
 
