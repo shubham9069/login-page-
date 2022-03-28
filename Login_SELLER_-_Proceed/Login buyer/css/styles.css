@@ -81,6 +81,8 @@ a{
   margin-left: 140px;
   margin-top: -45px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 .forget{
   color: 	#696969;
@@ -89,3 +91,11 @@ a{
   width: 306px;
   height: 96px;
 }
+
+.dropdown-item{
+  width: 90%;
+}
+.dropdown-toggle:focus ~ .dropdown-menu{
+  display: block !important;
+  
+} 
