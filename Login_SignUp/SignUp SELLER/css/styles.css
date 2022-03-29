@@ -12,13 +12,17 @@ a{
 .type{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  color: #F76E11;
+  color:#f3b86a;
 }
 
 .verify{
-  margin-left: 21rem;
-  margin-top: -50px;
-  margin-bottom: 40px;
+      
+      margin-top: -50px;
+      margin-bottom: 30px;
+      display: flex;
+      width: 100%;
+      
+      justify-content: end;
 }
 .form-div{
   position: relative;
@@ -46,7 +50,7 @@ input{
   border:1.5px solid black !important;
 }
 
-#email{
+.form-label{
     position: relative;
     bottom: 2rem;
     left: 2rem;
@@ -54,31 +58,88 @@ input{
 
 
 }
-#password{
 
-  position: relative;
-  bottom: 2rem;
-  left: 2rem;
-  transition: all 0.3s ease-in-out;
-
-}
-#form3Example3c:focus ~ #email,#form3Example3c:not(:placeholder-shown)#form3Example3c:not(:focus) ~ #email{
+#input1:focus ~ #firstname,#input1:not(:placeholder-shown)#input1:not(:focus) ~ #firstname{
 
   bottom:3.3rem;
   left: 1rem;
   font-size:0.75rem;
   background-color:white !important;
-
-
 }
-#form3Example4c:focus ~ #password,#form3Example4c:not(:placeholder-shown)#form3Example4c:not(:focus) ~ #password{
+
+#input2:focus ~ #lastname,#input2:not(:placeholder-shown)#input2:not(:focus) ~ #lastname{
 
   bottom:3.3rem;
   left: 1rem;
   font-size:0.75rem;
   background-color:white !important;
-
 }
+
+#input3:focus ~ #gender,#input3:not(:placeholder-shown)#input3:not(:focus) ~ #gender{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input4:focus ~ #dob,#input4:not(:placeholder-shown)#input4:not(:focus) ~ #dob{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input5:focus ~ #email,#input5:not(:placeholder-shown)#input5:not(:focus) ~ #email{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input6:focus ~ #phone,#input6:not(:placeholder-shown)#input6:not(:focus) ~ #phone{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input7:focus ~ #password,#input7:not(:placeholder-shown)#input7:not(:focus) ~ #password{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input8:focus ~ #confirmpass,#input8:not(:placeholder-shown)#input8:not(:focus) ~ #confirmpass{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input9:focus ~ #pan,#input9:not(:placeholder-shown)#input9:not(:focus) ~ #pan{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+#input10:focus ~ #aadhar,#input10:not(:placeholder-shown)#input10:not(:focus) ~ #aadhar{
+
+  bottom:3.3rem;
+  left: 1rem;
+  font-size:0.75rem;
+  background-color:white !important;
+}
+
+
 
 div i{
   margin-bottom: 50px;
@@ -95,5 +156,20 @@ div i{
   margin-top: -15px;
 }
 .align-link{
-  margin-top: -20px;
+  margin-top: -10px;
 }
+.text-center pa {
+  font-size: 1.2rem;
+  color: #f3b86a;
+}
+#loginseller{
+  display: inline;
+  margin: 2px;
+}
+#signupcustomer{
+  display:block;
+
+}
+
+
+
