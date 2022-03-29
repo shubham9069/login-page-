@@ -123,21 +123,7 @@ input{
   background-color:white !important;
 }
 
-#input9:focus ~ #pan,#input9:not(:placeholder-shown)#input9:not(:focus) ~ #pan{
 
-  bottom:3.3rem;
-  left: 1rem;
-  font-size:0.75rem;
-  background-color:white !important;
-}
-
-#input10:focus ~ #aadhar,#input10:not(:placeholder-shown)#input10:not(:focus) ~ #aadhar{
-
-  bottom:3.3rem;
-  left: 1rem;
-  font-size:0.75rem;
-  background-color:white !important;
-}
 
 
 
@@ -162,11 +148,11 @@ div i{
   font-size: 1.2rem;
   color: #f3b86a;
 }
-#loginseller{
+#customer{
   display: inline;
   margin: 2px;
 }
-#signupcustomer{
+#seller{
   display:block;
 
 }
