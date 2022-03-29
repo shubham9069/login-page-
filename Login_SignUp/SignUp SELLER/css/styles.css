@@ -156,6 +156,24 @@ div i{
   display:block;
 
 }
+#genderlabel{
+  margin-bottom: 3rem;
+ 
+  margin-left: 1rem
+}
+#gender{
+  word-wrap: normal;
+  margin-bottom: 3rem;
+  /* margin-right: 1px; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+}
+#gender:hover{
+  border: 2.5px solid ;
+  border-radius: 2.5px;
+}
+
 
 
 
