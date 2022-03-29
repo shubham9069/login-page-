@@ -11,7 +11,7 @@ a{
 .type{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  color: #FFD93D;
+  color: #f3b86a;
 }
 
 .verify{
@@ -99,7 +99,15 @@ a{
   display: block !important;
   
 } 
-.text-center a{
+#seller{
   display: block;
+}
+#create{
+  display: inline;
+  margin: 2px;
+}
 
+.text-center pa{
+  font-size: 1.2rem;
+  color: #f3b86a;
 }
